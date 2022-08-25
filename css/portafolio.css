@@ -1,0 +1,32 @@
+.webstudio2 {
+  width:145px;
+    color: #278fe8;
+}
+.footer2 {
+    background-color: #2f303a;
+  }
+  .button {
+    background-color: white;
+  }
+  .title-button {
+    color:#FFFFFF;
+  background-color: #2196f3;
+  }
+  a{
+    text-decoration: none;
+    color: #212121;
+  }
+  .header-text:hover {
+    color: #2196F3;
+  }
+  .logo {
+    width: 145px;
+    color: #2196F3;
+    font-family: 'Raleway';
+  }
+  .headerlink {
+    color: #757575;
+  }
+  .headerlink:hover {
+    color: #2196F3;
+  }
