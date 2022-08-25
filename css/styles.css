@@ -1,6 +1,14 @@
+body{
+  margin: 0;
+}
+​
 .header {
   width: 1600px;
  height: 80px;
+}
+.main-container{
+  width: 1170px;
+  margin: 0 auto;
 }
 .section1 {
   display: flex;
@@ -12,10 +20,7 @@
 }
 .title {
   color: white;
-  height: 120px;
-  width: 696px;
-  left: 448px;
-  top: 280px;
+  
   border-radius: nullpx;
   font-family: Roboto;
   font-style: normal;
@@ -64,15 +69,22 @@
   text-transform: uppercase;
   color: #212121;
 }
+.section1-container{
+  width: 697px;
+  justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 .container {
   display: flex;
+  width: 1600px;
 }
 .content {
   display: inline;
 }
 .container-images-1 {
   display: flex;
-  justify-content: center;
 }
 .image-desktop {
   width: 373.16px;
@@ -85,6 +97,14 @@
 .titlebutton {
   color:#FFFFFF;
   background-color: #2196f3;
+  padding: 10px 32px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  border: none;
+  border-radius: 4px;
 }
 .container-images-2 {
   width: 270px;
@@ -92,12 +112,14 @@
 .circular-container2 {
   background: #FFFFFF;
 /* material shadow v1 */
-
+​
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 }
 .container-images-2 img {
-  width: 300px
+  width: 300px;
+  display:flex;
+  justify-content: center;
 }
 a{
   text-decoration: none;
@@ -110,6 +132,9 @@ a{
   width: 145px;
   color: #2196F3;
   font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 }
 .headerlink {
   color: #757575;
@@ -119,6 +144,43 @@ a{
 }
 .container-section-4 {
   display:flex;
-  justify-content: center;
+}
+​
+​
+/* Estilos nuevos */
+​
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 100%;
   align-items: center;
+}
+​
+.header-container ul{
+  list-style: none;
+  display: flex;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+margin: 0;
+margin-left: -400px;
+}
+.header-container ul li{
+  margin-right: 50px;
+  font-weight: 600;
+}
+​
+.header-container div a{
+  margin-right: 50px;
+}
+.section4 {
+  width: 1600px;
+}
+.section3 {
+  width: 1600px;
+}
+.texts {
+  display:flex;
 }
