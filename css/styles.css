@@ -56,21 +56,13 @@ main{
   display: flex;
   flex-direction: column;
 }
-.container {
-  display: flex;
-  width: 1600px;
-}
-.container{
-  display: flex;
-  justify-content: space-between;
-  width: 600px;
-}
 .content {
   display: inline;
   width: 270px;
 }
 .container-images-1 {
   display: flex;
+  justify-content: space-between;
 }
 .text1{
   color: #757575;
@@ -170,6 +162,7 @@ main{
 }
 .texts {
   display:flex;
+  justify-content: space-between;
 }
 .footertext{
   color:#FFFFFF;
@@ -188,6 +181,7 @@ main{
   justify-content: center;
 }
 .webstudio {
+  font-family: 'Raleway';
   width: 145px;
   color: #278fe8;
 }
@@ -215,7 +209,7 @@ main2 {
   font-family: roboto;
   background: #E5E5E5;
 }
-.webstudio2 {
+.logo2 {
   width: 145px;
   color: #278fe8;
   width: 145px;
@@ -452,6 +446,11 @@ justify-content:center;
   display: flex;
 }
 
+.webstudio2{
+  width: 145px;
+  color: #2196F3;
+  font-family: 'Raleway';
+}
 
 .icon-list{
   display: flex;
